@@ -1,0 +1,32 @@
+[
+  {
+    "id": "prep_fasting_blood",
+    "category": "preparation",
+    "topic": "Fasting Blood Test / Lipid Profile",
+    "content": "For fasting blood glucose and lipid panel tests, fast for 8 to 12 hours prior to your appointment. Water is allowed. Avoid strenuous exercise immediately before the test."
+  },
+  {
+    "id": "prep_ultrasound_abdomen",
+    "category": "preparation",
+    "topic": "Abdominal Ultrasound",
+    "content": "Fast for 6 hours prior to the procedure. You may drink clear water up to 2 hours before. Avoid carbonated beverages and milk."
+  },
+  {
+    "id": "ins_cchi_coverage",
+    "category": "insurance",
+    "topic": "CCHI & Class Coverage",
+    "content": "Apex AI Arabia Healthcare complies with Council of Health Insurance (CCHI) regulations. Coverage depends on your network tier (VIP, A, B). Copayments usually range from 0% to 20% capped at SAR 100 per visit according to unified policy terms."
+  },
+  {
+    "id": "ins_approval_process",
+    "category": "insurance",
+    "topic": "Prior Authorization",
+    "content": "Routine outpatient consultations do not require pre-approval. Specialized imaging (MRI/CT), non-emergency surgical procedures, and brand-name medications require insurer pre-authorization, which takes 24 to 48 hours."
+  },
+  {
+    "id": "gen_working_hours",
+    "category": "general",
+    "topic": "Clinic Hours & Location",
+    "content": "Main clinic branches in Riyadh and Jeddah operate Sunday through Thursday, 8:00 AM to 9:00 PM, and Saturdays 10:00 AM to 6:00 PM. Closed on Fridays."
+  }
+]

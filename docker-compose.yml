@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  assistant-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: apex-healthcare-assistant
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_NAME=Saudi Healthcare Patient Service Assistant
+      - ENVIRONMENT=production
+      - DEBUG=False
+      - PORT=8000
+    restart: always
+    healthcheck:
+      test: ["CMD-SHELL", "python -c 'import urllib.request; urllib.request.urlopen(\"http://localhost:8000/health\")'"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
